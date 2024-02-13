@@ -1,0 +1,106 @@
+* {
+    font-family: Gilroy-Bold;
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.homePage {
+    width: 1920px;
+    height: 550px;
+}
+
+.menuBar {
+    width: 1170px;
+    height: 40px;
+    margin: 40px 375px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.menuLink {
+    font-size: 14px;
+    font-weight: 400;
+    color: rgb(0, 0, 0);
+    align-content: left;
+}
+
+.homeMeta {
+    margin: 84px 162px 375px 375px;
+    width: 1170px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.meta {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 30px;
+}
+
+.title {
+    margin: 0px 0px;
+    font-size: 60px;
+    /* font-style: bol; */
+}
+
+.subTitle {
+    margin: 0px 0px;
+    font-size: 20px;
+    color: #888;
+}
+
+.buttonMeta {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 72px;
+}
+
+.buttonStart {
+    width: 140px;
+    height: 50px;
+    border-radius: 50px;
+    box-shadow: 4px 4px 8px 0px rgba(0, 0, 0, 0.25);
+    background: rgb(242, 88, 34);
+    color: rgb(255, 255, 255);
+    font-weight: 400;
+    line-height: -1px;
+    letter-spacing: 0%;
+}
+
+.buttonWatch {
+    width: 140px;
+    height: 50px;
+    text-shadow: 1px 1px 2px black;
+    background: rgb(255, 255, 255);
+    color: #AAA;
+    font-weight: 400;
+}
+
+.metaImg {
+    width: 610px;
+    height: 373px;
+}
+
+.brandLogo {
+    margin: 97px 97px 345px 375px;
+    width: 1200px;
+    height: 50px;
+    margin: 97px 97px;
+    display: flex;
+    justify-content: space-between;
+    gap: 48px;
+    /* top: 325px;
+    bottom: -132px; */
+}
